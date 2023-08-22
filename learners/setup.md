@@ -6,7 +6,7 @@ title: Setup
 
 This lesson requires access to [NVivo software][nvivo] for Windows or Mac. We recommend using NVivo 14 or NVivo Release 1 (also known as NVivo 13), but users of older versions should be able to perform most actions with minimal modification. No cloud or platform-specific features are required.
 
-Prior to installing NVivo for the first time, you will need to set up a Lumivero account by clicking the `Free Trial` button at the top right of the [NVivo homepage][nvivo]. After creating an account and downloading the software for your operating system, please sign into the software to validate your license, which will allow you full access to the software for 14 days.
+Prior to installing NVivo for the first time, you will need to set up a Lumivero account by clicking the **Free Trial** button at the top right of the [NVivo homepage][nvivo]. After creating an account and downloading the software for your operating system, please sign into the software to validate your license, which will allow you full access to the software for 14 days.
 
 ::: callout 
 
