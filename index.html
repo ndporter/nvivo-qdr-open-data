@@ -146,8 +146,8 @@
         
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
-        <ul><li><a href="#data-sets">Data Sets</a></li>
-<li><a href="#software-setup">Software Setup</a></li>
+        <ul><li><a href="#software-setup">Software Setup</a></li>
+<li><a href="#data-sets">Data Sets</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
         
@@ -267,84 +267,100 @@
       <hr></nav><main id="main-content" class="main-content"><h1 class="schedule-heading">Summary and Setup</h1>
       
 
-<p>This is a new lesson built with <a href="https://carpentries.github.io/sandpaper-docs" class="external-link">The Carpentries
-Workbench</a>.</p>
+<p>This lesson provides step-by-step models and guides for effective
+workflows to find and reuse qualitative data archived at QDR in NVivo
+projects, as well as best practices to prepare your own NVivo projects
+and data for archiving and reuse at QDR.</p>
+<div class="Prerequisites">
+<p>It is helpful, but not required, to be familiar with basic principles
+and practices in qualitative research, such as open and thematic coding.
+No experience with qualitative software (including NVivo) or QDR is
+necessary.</p>
+</div>
+<p>We will annotate, analyze, and prepare to archive interview
+transcripts from a qualitative study of abortion reporting, focused on
+how participants decide whether to allow sharing data they provide on
+sensitive topics. Neither the original study nor this lesson proposes to
+draw conclusions on the political, legal, or moral aspects of
+abortion.</p>
+<p>The <a href="https://doi.org/10.1177/10497323211054058" class="external-link">original
+study</a> concluded that not all participants fully understood the
+concept of data sharing and thus may not be able to give fully informed
+consent.</p>
+<p>In the lesson, we will use the data to explore to what extent
+concerns identified about “fully informed consent” are also relevant to
+research on less sensitive topics. To do so, we will reanalyze a portion
+of the data, compare our coding to the original study’s coding, and use
+both traditional and data analytic methods to draw a tentative
+conclusion before packaging our own work to archive and share for other
+researchers.</p>
+<div class="section level2 Callout">
+<h2 id="workshop-format">Workshop format<a class="anchor" aria-label="anchor" href="#workshop-format"></a></h2>
+<p>This lesson is designed to be delivered as an in-person or
+synchronous online workshop, with an experienced instructor
+demonstrating techniques and helpers available to assist anyone with
+questions or errors in real time. For best results in live workshops, we
+encourage you to attempt to complete steps with the instructor and use
+the methods provided by the instructional team to ask for help when
+needed. Making mistakes and encountering challenges is part of every
+learning process.</p>
+<p>The lesson is also, however, complete and usable for fully self-paced
+online learning. When working through the lesson online, we recommend
+reading all callouts and notes, as well as attempting all exercises and
+checking your results against the provided solutions, although in some
+cases, there are alternative approaches that work equally well.</p>
+</div>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
 
 
-      <section id="setup"><p>FIXME: Setup instructions live in this document. Please specify the
-tools and the data sets the Learner needs to have installed.</p>
-<section id="data-sets"><h2 class="section-heading">Data Sets<a class="anchor" aria-label="anchor" href="#data-sets"></a>
+      <section id="setup"><p>This lesson requires access to [NVivo software][nvivo] for Windows or
+Mac. We recommend using NVivo 14 or NVivo Release 1 (also known as NVivo
+13), but users of older versions should be able to perform most actions
+with minimal modification. No cloud or platform-specific features are
+required.</p>
+<section id="software-setup"><h2 class="section-heading">Software Setup<a class="anchor" aria-label="anchor" href="#software-setup"></a>
 </h2>
-<hr class="half-width"><!--
-FIXME: place any data you want learners to use in `episodes/data` and then use
-       a relative link ( [data zip file](data/lesson-data.zip) ) to provide a
-       link to it, replacing the example.com link.
---><p>Download the <a href="https://example.com/FIXME" class="external-link">data zip file</a>
-and unzip it to your Desktop</p>
-</section><section id="software-setup"><h2 class="section-heading">Software Setup<a class="anchor" aria-label="anchor" href="#software-setup"></a>
-</h2>
-<hr class="half-width"><div id="details" class="callout discussion">
+<hr class="half-width"><p>Prior to installing NVivo for the first time, you will need to set up
+a Lumivero account by clicking the <code>Free Trial</code> button at the
+top right of the [NVivo homepage][nvivo]. After creating an account and
+downloading the software for your operating system, please sign into the
+software to validate your license, which will allow you full access to
+the software for 14 days.</p>
+<div id="paid-licenses-and-free-alternatives" class="callout callout">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="details" class="callout-inner">
-<h3 class="callout-title">Details<a class="anchor" aria-label="anchor" href="#details"></a>
+<div id="paid-licenses-and-free-alternatives" class="callout-inner">
+<h3 class="callout-title">Paid Licenses and Free Alternatives<a class="anchor" aria-label="anchor" href="#paid-licenses-and-free-alternatives"></a>
 </h3>
 <div class="callout-content">
-<p>Setup for different systems can be presented in dropdown menus via a
-<code>solution</code> tag. They will join to this discussion block, so
-you can give a general overview of the software used in this lesson here
-and fill out the individual operating systems (and potentially add more,
-e.g. online setup) in the solutions blocks.</p>
+<p>Before investing time in this training, recognize that NVivo is paid
+software which requires a valid license to use past the trial period.
+Depending on your status (student, academic, etc.) you may be eligible
+to purchase one or both of the following: - perpetual licenses: never
+expire but only provide access to the current version and more expensive
+- annual licenses: less expensive and may include upgrades but cease
+working after one year</p>
+<p>Open source and freely licensed tools like [Taguette][taguette] or
+spreadsheets can provide useful and economical alternatives to paid
+software in some circumstances and we encourage you to investigate your
+options before purchasing software. Future lessons will include training
+in free alternatives.</p>
+<p>We do not endorse any particular software, but provide training in
+widely used coding and qualitative analysis software.</p>
 </div>
 </div>
 </div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Windows
-  </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
-<div class="accordion-body">
-<p>Use PuTTY</p>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2">
-  MacOS
-  </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
-<div class="accordion-body">
-<p>Use Terminal.app</p>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
-  <h4 class="accordion-header" id="headingSolution3">
-  Linux
-  </h4>
-</button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
-<div class="accordion-body">
-<p>Use Terminal</p>
-</div>
-</div>
-</div>
-</div>
+</section><section id="data-sets"><h2 class="section-heading">Data Sets<a class="anchor" aria-label="anchor" href="#data-sets"></a>
+</h2>
+<hr class="half-width"><p>In addition to NVivo software, you will be required to create a free
+account with the [Qualitative Data Repository][qdr] (QDR) to download
+data for this workshop.Instructions will be provided within the relevant
+section of the lesson.</p>
+<p><a href="https://lumivero.com/products/nvivo/" class="external-link">nvivo</a> <a href="https://www.taguette.org/" class="external-link">taguette</a> <a href="https://qdr.syr.edu/" class="external-link">qdr</a></p>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
