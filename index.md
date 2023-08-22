@@ -4,7 +4,7 @@ site: sandpaper::sandpaper_site
 
 This lesson provides step-by-step models and guides for effective workflows to find and reuse qualitative data archived at QDR in NVivo projects, as well as best practices to prepare your own NVivo projects and data for archiving and reuse at QDR.
 
-::: Prerequisites
+::: prereq 
 
 It is helpful, but not required, to be familiar with basic principles and practices in qualitative research, such as open and thematic coding. No experience with qualitative software (including NVivo) or QDR is necessary.
 
@@ -17,7 +17,7 @@ The [original study](https://doi.org/10.1177/10497323211054058) concluded that n
 In the lesson, we will use the data to explore to what extent concerns identified about "fully informed consent" are also relevant to research on less sensitive topics. To do so, we will reanalyze a portion of the data, compare our coding to the original study's coding, and use both traditional and data analytic methods to draw a tentative conclusion before packaging our own work to archive and share for other researchers.
 
 
-::: Callout
+::: callout 
 
 ## Workshop format
 
