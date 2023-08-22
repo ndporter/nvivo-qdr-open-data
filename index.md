@@ -6,6 +6,8 @@ This lesson provides step-by-step models and guides for effective workflows to f
 
 ::: prereq 
 
+## Prerequisites
+
 It is helpful, but not required, to be familiar with basic principles and practices in qualitative research, such as open and thematic coding. No experience with qualitative software (including NVivo) or QDR is necessary.
 
 ::: 
