@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://ndporter.github.io/nvivo-qdr-open-data/01-archiving-and-reusing-qualitative-data.html</loc>
+  </url>
+  <url>
     <loc>https://ndporter.github.io/nvivo-qdr-open-data/01-introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://ndporter.github.io/nvivo-qdr-open-data/02-qualitative-data-formats.html</loc>
+  </url>
+  <url>
+    <loc>https://ndporter.github.io/nvivo-qdr-open-data/03-project-management-in-nvivo.html</loc>
+  </url>
+  <url>
+    <loc>https://ndporter.github.io/nvivo-qdr-open-data/04-coding-data-in-nvivo.html</loc>
+  </url>
+  <url>
+    <loc>https://ndporter.github.io/nvivo-qdr-open-data/05-analyzing-data-in-nvivo.html</loc>
+  </url>
+  <url>
+    <loc>https://ndporter.github.io/nvivo-qdr-open-data/06-archiving-and-sharing-nvivo-projects.html</loc>
+  </url>
+  <url>
+    <loc>https://ndporter.github.io/nvivo-qdr-open-data/07-improving-reusability.html</loc>
   </url>
   <url>
     <loc>https://ndporter.github.io/nvivo-qdr-open-data/404.html</loc>
@@ -22,7 +43,28 @@
     <loc>https://ndporter.github.io/nvivo-qdr-open-data/index.html</loc>
   </url>
   <url>
+    <loc>https://ndporter.github.io/nvivo-qdr-open-data/instructor/01-archiving-and-reusing-qualitative-data.html</loc>
+  </url>
+  <url>
     <loc>https://ndporter.github.io/nvivo-qdr-open-data/instructor/01-introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://ndporter.github.io/nvivo-qdr-open-data/instructor/02-qualitative-data-formats.html</loc>
+  </url>
+  <url>
+    <loc>https://ndporter.github.io/nvivo-qdr-open-data/instructor/03-project-management-in-nvivo.html</loc>
+  </url>
+  <url>
+    <loc>https://ndporter.github.io/nvivo-qdr-open-data/instructor/04-coding-data-in-nvivo.html</loc>
+  </url>
+  <url>
+    <loc>https://ndporter.github.io/nvivo-qdr-open-data/instructor/05-analyzing-data-in-nvivo.html</loc>
+  </url>
+  <url>
+    <loc>https://ndporter.github.io/nvivo-qdr-open-data/instructor/06-archiving-and-sharing-nvivo-projects.html</loc>
+  </url>
+  <url>
+    <loc>https://ndporter.github.io/nvivo-qdr-open-data/instructor/07-improving-reusability.html</loc>
   </url>
   <url>
     <loc>https://ndporter.github.io/nvivo-qdr-open-data/instructor/404.html</loc>
