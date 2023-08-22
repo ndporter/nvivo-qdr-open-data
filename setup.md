@@ -26,6 +26,6 @@ We do not endorse any particular software, but provide training in widely used c
 
 In addition to NVivo software, you will be required to create a free account with the [Qualitative Data Repository][qdr] (QDR) to download data for this workshop.Instructions will be provided within the relevant section of the lesson.
 
-[nvivo](https://lumivero.com/products/nvivo/)
-[taguette](https://www.taguette.org/)
-[qdr](https://qdr.syr.edu/)
+[nvivo]: (https://lumivero.com/products/nvivo/)
+[taguette]: (https://www.taguette.org/)
+[qdr]: (https://qdr.syr.edu/)
