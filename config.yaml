@@ -59,7 +59,6 @@ contact: 'ndporter@vt.edu'
 
 # Order of episodes in your lesson
 episodes: 
-- introduction.md
 - 01-archiving-and-reusing-qualitative-data.md
 - 02-qualitative-data-formats.md
 - 03-project-management-in-nvivo.md
