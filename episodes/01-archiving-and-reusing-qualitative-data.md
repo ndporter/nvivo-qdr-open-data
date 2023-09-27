@@ -98,7 +98,7 @@ Once you have a QDR account, log in with the button on the top right and return 
 Open the folder using `Finder` (Mac) or `Explorer` (Windows) and inspect the file *extensions* (the part after the `.` in the filename). What types of files are included and what software would typically be used to open them?
 
 ::: hint
-Don't worry if you don't recognize all of the filetypes. Just identify what you know. If you have time during the exercise, you can use a web search like `open pdf file`) to search for information.
+Don't worry if you don't recognize all of the file types. Just identify what you know. If you have time during the exercise, you can use a web search like `open pdf file`) to search for information.
 :::
 
 ::: solution
@@ -148,12 +148,14 @@ Windows users may see a launch screen like the one below.
 ![Launch menu for NVivo 14 Windows](fig/nvivo-launch-dialog-windows.png)
 
 -   Click `Open Other Project`
--   In the dialog that opens, navigate to where you extracted the data, scroll to the bottom, and find `Mannheimer_Redacted_Interview_Analysis.nvpx`.
--   Click the file then click `Open`.
--   You will see a `Convert Project` dialog to convert from Mac to Windows. Select a location then follow the directions to upgrade. You may also be asked to download and install a project converter if you haven't converted files in NVivo.
--   The conversion may fail if you're using NVivo 14, in which case you will need the `qdpx` directions, which have not yet been added in the Alpha.
+-   In the dialog that opens, navigate to where you extracted the data
+-   Select the file type `REFI-QDA Project` from the dropdown at the bottom right (see image below)
+![Selecting REFI-QDA Project filetype](fig/nvivo-open-project-dialog-windows-qdpx.png){alt="Screenshot demonstrating the location of the file type menu in the Open Project dialog in NVivo for Windows"}.
+-   Click `Mannheimer_Redacted_Interview_Analysis.qdpx` then click `Open`.
+-   You will see a `Convert Project` dialog. Select a save location and check the `Import code colors` box then follow the directions, using the name `Mannheimer_Reuse` for your new project. You may also be asked to download and install a project converter if you haven't converted files in NVivo.
 
-Once the upgrade is complete, the project should open automatically in NVivo.
+Nvivo will take some to convert the `qdpx` project into an NVivo project then 
+open the project in the main NVivo window.
 :::
 
 ::: solution
@@ -165,11 +167,12 @@ Mac users may see a launch screen like the one below.
 
 -   Close the launch dialog, if it appeared, using the `x` at the top left.
 -   From the `File` menu at the top of your screen, select `Open Project...`.
--   In the dialog that opens, navigate to where you extracted the data, scroll to the bottom, and find `Mannheimer_Redacted_Interview_Analysis.nvpx`.
--   Click the file then click `Open`.
--   If you see an `Upgrade Project` dialog, select a location then follow the directions to upgrade.
+-   In the dialog that opens, navigate to where you extracted the data, scroll to the bottom, and find `Mannheimer_Redacted_Interview_Analysis.qdpx`.
+-   Click the file, make sure the `Import code colors` option is checked, then click `Open`.
+-   Choose a location in the `Save As` dialog that pops up and name the project `Mannheimer_Reuse`.
 
-Once the upgrade is complete, the project should open automatically in NVivo.
+Nvivo will take some to convert the `qdpx` project into an NVivo project then 
+open the project in the main NVivo window.
 :::
 :::
 
