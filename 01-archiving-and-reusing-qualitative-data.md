@@ -1,7 +1,7 @@
 ---
 title: 'Archiving and Reusing Qualitative Data'
 teaching: 30
-exercises: 20
+exercises: 30
 ---
 
 ::: questions
@@ -115,7 +115,41 @@ In this project, the `txt` files provide *metadata*, or information about the pr
 
 ### Methodologies and Instruments
 
-Coming soon.
+Maybe you noticed something interesting about the interview topics in the description when we first looked at the data on QDR. Let's look again, either on the [project page](https://doi.org/10.5064/F6GWMU4O) or by opening the `README_Mannheimer.txt` in a text editor.
+
+::: callout
+### README Files
+
+In collections of data or other multi-file downloads, there is often a file named `readme.txt` or something similar. These are meant to provide an overview of the collection and how to go about using them.
+:::
+
+Let's zero in on the first paragraph under `Data Description and Collection Overview`:
+
+> The data in this study was collected using semi-structured interviews that centered around specific incidents of qualitative data archiving or reuse, big social research, or data curation. The participants for the interviews were therefore drawn from three categories: researchers who have used big social data, qualitative researchers who have published or reused qualitative data, and data curators who have worked with one or both types of data. Six key issues were identified in a literature review, and were then used to structure three interview guides for the semi-structured interviews. The six issues are context, data quality and trustworthiness, data comparability, informed consent, privacy and confidentiality, and intellectual property and data ownership.
+
+This short paragraph packs a great deal of information about the interview topics and questions. Our topic of social media privacy may share a good deal with some of the issues the original interviews focused on. Let's look a little deeper into what we can learn to help in our own study.
+
+::: challenge
+### Reviewing study materials
+
+Study materials from previous studies, like interview schedules or participant observation memos, provide a window into what might work for other related studies, including both what to ask and how to approach asking. Moreover, if the research dealt with a similar study population and the final product addressed topics of interest in your study as well, it also provides some evidence that a similar study design can be effective not just in theory but in practice.
+
+Use the information in `README_Mannheimer.txt` to locate the 3 interview guides and use the readme and guides to answer the following questions:
+
+1.  Which of the six issues the researchers identified seem most relevant to planning your study? Why?
+2.  Is one of the original study populations more relevant to understanding shared issues with your study? Which one and why?
+3.  Read through the questions in the interview guide for the most relevant population you identified above. Are there questions that might be adapted or borrowed for your own interviews about social media privacy decisions?
+:::
+
+::: instructor
+
+The activity above is most effective when participants are able to debrief for about 5 minutes either with small groups of 3-5 learners or as a larger group. When used independently, the learner may want to write down some notes instead.
+
+Alternatively, this activity may be moved to after the NVivo project is created, in which case learners can import the files into their project and annotate them using linked memos.
+
+:::
+
+If we can adapt questions and take advantage of their literature review to anticipate concerns and challenges relevant to our data collection, we may be able to improve the quality of our study and interview design, without repeating all the background research from the previous study.
 
 ### Raw Data
 
@@ -149,13 +183,11 @@ Windows users may see a launch screen like the one below.
 
 -   Click `Open Other Project`
 -   In the dialog that opens, navigate to where you extracted the data
--   Select the file type `REFI-QDA Project` from the dropdown at the bottom right (see image below)
-![Selecting REFI-QDA Project filetype](fig/nvivo-open-project-dialog-windows-qdpx.png){alt="Screenshot demonstrating the location of the file type menu in the Open Project dialog in NVivo for Windows"}.
+-   Select the file type `REFI-QDA Project` from the dropdown at the bottom right (see image below) ![Selecting REFI-QDA Project filetype](fig/nvivo-open-project-dialog-windows-qdpx.png){alt="Screenshot demonstrating the location of the file type menu in the Open Project dialog in NVivo for Windows"}.
 -   Click `Mannheimer_Redacted_Interview_Analysis.qdpx` then click `Open`.
 -   You will see a `Convert Project` dialog. Select a save location and check the `Import code colors` box then follow the directions, using the name `Mannheimer_Reuse` for your new project. You may also be asked to download and install a project converter if you haven't converted files in NVivo.
 
-Nvivo will take some to convert the `qdpx` project into an NVivo project then 
-open the project in the main NVivo window.
+Nvivo will take some to convert the `qdpx` project into an NVivo project then open the project in the main NVivo window.
 :::
 
 ::: solution
@@ -171,8 +203,7 @@ Mac users may see a launch screen like the one below.
 -   Click the file, make sure the `Import code colors` option is checked, then click `Open`.
 -   Choose a location in the `Save As` dialog that pops up and name the project `Mannheimer_Reuse`.
 
-Nvivo will take some to convert the `qdpx` project into an NVivo project then 
-open the project in the main NVivo window.
+Nvivo will take some to convert the `qdpx` project into an NVivo project then open the project in the main NVivo window.
 :::
 :::
 
