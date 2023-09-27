@@ -157,7 +157,8 @@
         
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
-        <ul><li><a href="#heading">Heading</a></li>
+        <ul><li><a href="#reusing-qualitative-data">Reusing Qualitative Data</a></li>
+<li><a href="#sharing-qualitative-data">Sharing Qualitative Data</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
         
@@ -276,7 +277,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Archiving and Reusing Qualitative Data</h1>
-        <p> Last updated on 2023-09-20 | 
+        <p> Last updated on 2023-09-27 | 
         
         <a href="https://github.com/ndporter/nvivo-qdr-open-data/edit/main/episodes/01-archiving-and-reusing-qualitative-data.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -297,7 +298,6 @@
 <h3 class="card-title">Questions</h3>
 <ul><li>Why reuse qualitative data?</li>
 <li>Why share qualitative data?</li>
-<li>Where can I find existing qualitative data?</li>
 </ul></div>
 </div>
 </div>
@@ -305,15 +305,338 @@
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<ul><li>TBA</li>
+<ul><li>Appreciate the goals and approach of this lesson</li>
+<li>Identify opportunities and barriers for qualitative data reuse and
+sharing</li>
+<li>Practice finding and downloading data from a qualitative data
+repository</li>
 </ul></div>
 </div>
 </div>
 </div>
 </div>
-<section id="heading"><h2 class="section-heading">Heading<a class="anchor" aria-label="anchor" href="#heading"></a>
+<p>For decades, a movement has been building among quantitative
+researchers to share data and analysis as completely as possible. In
+part, this is meant to improve scientific transparency, so findings can
+be checked and verified, but it also serves to provide a basis for
+future studies.</p>
+<p>Qualitative researchers have been much slower to adopt data and
+analysis sharing, for a few different reasons, including both technical
+and normative constraints. On the technical side, qualitative data has
+had limited standards, and analysis has often been conducted manually or
+with specialized software with limited compatibility with other
+software. More importantly, however, qualitative researchers tend to
+emphasize the role of both the context of data collection and the
+perspective of the researcher in the research process - in contrast to
+quantitative methods that often seek precisely to minimize the
+subjectivity of their methods and draw wide-ranging conclusions about
+entire populations.</p>
+<p>Moreover, qualitative data often presents challenges for protecting
+privacy when sharing data, because interviews, focus groups, and other
+qualitative methods provide rich detail that can make it easier to
+identify participants even if direct identifiers are removed, as well as
+often dealing with sensitive issues.</p>
+<p>Despite these challenges, however, there is a small but growing
+movement to share and reuse qualitative and mixed methods data and
+analysis, helped along by recent technical developments.</p>
+<p>In this lesson, we will start by exploring what advantages sharing
+and reusing qualitative research can offer that might offset the
+challenges it presents, then practice finding, reusing, and sharing data
+and analysis projects with the largest qualitative data archive, QDR,
+and the most widely used coding and qualitative data analysis software,
+NVivo.</p>
+<p>The data we will work with are real data, although the scenario we
+use is somewhat artificial. Our goal is twofold - to help build literacy
+and skills for working with secondary qualitative data using relevant
+tools and to help develop an imagination for how you might reuse and
+share qualitative and mixed methods data to improve your own
+research.</p>
+<section id="reusing-qualitative-data"><h2 class="section-heading">Reusing Qualitative Data<a class="anchor" aria-label="anchor" href="#reusing-qualitative-data"></a>
 </h2>
-<hr class="half-width"><p>TEXT</p>
+<hr class="half-width"><p>The first step to reuse is to understand what elements might be
+reused and why. Historically, research products like articles and books
+have been the primary shared output of qualitative research. However,
+there are at least four other common research products that may be
+valuable for reuse or adaptation: * methodologies and instruments * raw
+data * codebooks * analysis</p>
+<p>In the next step, we’ll download some real qualitative data and
+explore how each of these products might be useful to another
+researcher.</p>
+<div id="callout1" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
+</h3>
+<div class="callout-content">
+<p>Throughout this lesson, we’ll be using semi-structured interviews,
+one of the most common types of qualitative data, in our examples and
+discussion. Content analysis generally involves similar concerns and
+processes, but uses other kinds of secondary data, such as published
+print or audio-visual materials. Other qualitative methods, such as
+participant observation and focus groups, may be somewhat less suited to
+these tools and approaches and may require adaptation beyond what is
+discussed here.</p>
+<p>Part of the power of qualitative research is its recognition that no
+method can be truly universal and that all analysis is contextual. We
+encourage you to treat the discussion and tools here as starting points,
+rather than templates.</p>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="finding-and-downloading-qdr-data">Finding and Downloading QDR Data<a class="anchor" aria-label="anchor" href="#finding-and-downloading-qdr-data"></a></h3>
+<p>Discussing data reuse in the abstract can only get you so far.
+Instead, we will imagine we face the following scenario and working
+together to discover how we can take advantage of others hard work to
+improve our research:</p>
+<blockquote>
+<p>You are preparing to conduct a study of social media users in
+multiple countries, with a focus on understanding how people make
+decisions about the privacy of their posts and profiles. Participants
+will complete brief surveys about their demographic background,
+participate in one or more semi-structured interviews, and provide
+access to their posts on each platform they regularly use for a period
+of 1 month. You are the lead researcher, but are joined by both
+long-term collaborators and student research assistants, who are likely
+to come and go throughout the expected duration of the research.</p>
+<p>Your training in qualitative research makes you skeptical of the
+value of data that was collected for other purposes, but you also know
+you won’t have much time to collect the data and need to ensure you make
+the most of the opportunity and structure your interviews so they can
+reveal critical findings. One of your collaborators referenced a
+[dissertation][mannheimer-dissertation] that used qualitative methods to
+study data sharing in qualitative and big social research, and you
+noticed that the dissertation mentioned that anonymized data are
+available online. Although your research questions differ from theirs,
+you wonder if their interviews might help guide how you approach your
+study and decide to take a look.</p>
+</blockquote>
+<p>The first step to finding out whether this data can help is to get
+the data.</p>
+<p>Following the link in the dissertation, visit the data’s [summary
+page][mannheimer-qdr] at the [Qualitative Data Repository][qdr-home], or
+QDR. QDR [describes itself][qdr-about] as &gt; …a dedicated archive for
+storing and sharing digital data (and accompanying &gt; documentation)
+generated or collected through qualitative and multi-method &gt;
+research in the social sciences and related disciplines.</p>
+<p>Essentially, QDR is a place for researchers to share qualitative and
+mixed methods data in a variety of forms, as well as their analysis
+projects. Some data are restricted and require an application or
+agreement before using, but other data, including what we are interested
+in, are openly available to any registered user.</p>
+<p>Before going to the trouble of registering, let’s take a look at what
+is actually available in this data collection.</p>
+<p><img src="fig/qdr-project-page.png" alt='Screenshot of a webpage titled "Interviews regarding data curation for qualitative data reuse and big social research" within QDR' class="figure">.</p>
+<p>The description, once expanded with the
+<code>Read full description</code> button summarizes the project,
+research questions, data collection process, and what is included in the
+collection here.</p>
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Discussion<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+</h3>
+<div class="callout-content">
+<p>Spend a few minutes reading the description and discuss with a
+partner how helpful you think this data might be for the social media
+privacy project and why.</p>
+</div>
+</div>
+</div>
+<p>This project contains a wide variety of information, including: *
+interview transcripts from three different populations * interview
+analysis * participant summaries * interview guides * study documents
+(consent forms, solicitations, IRB)</p>
+<p>Both the topic and the range of data available seem promising, and
+the QDR Standard Access license agreement allows any registered user to
+download the data, so let’s download it and see what we find!</p>
+<div id="create-a-qdr-account" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="create-a-qdr-account" class="callout-inner">
+<h3 class="callout-title">Create a QDR Account<a class="anchor" aria-label="anchor" href="#create-a-qdr-account"></a>
+</h3>
+<div class="callout-content">
+<p>If you don’t already have one, you’ll need to create an account at
+QDR for the next step. To do so, click <a href="https://qdr.syr.edu/user/register" class="external-link">Register</a>. in the top right
+of the summary page. Fill out the registration form and click
+<code>Create new account</code>, performing any necessary verification
+before proceeding.</p>
+</div>
+</div>
+</div>
+<p>Once you have a QDR account, log in with the button on the top right
+and return to the [summary page][mannheimer-qdr]. Click
+<code>Download Data Project</code> (see image below), download the ZIP
+file to your desktop, and extract the files into a folder on your
+desktop.</p>
+<p><img src="fig/qdr-data-download.png" alt='Screenshot highlighting the "Download Data Project" context menu for a QDR project' class="figure">.</p>
+<div id="challenge1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+</h3>
+<div class="callout-content">
+<p>Open the folder using <code>Finder</code> (Mac) or
+<code>Explorer</code> (Windows) and inspect the file <em>extensions</em>
+(the part after the <code>.</code> in the filename). What types of files
+are included and what software would typically be used to open them?</p>
+</div>
+</div>
+</div>
+<div id="accordionHint1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
+  <h4 class="accordion-header" id="headingHint1">
+  Give me a hint
+  </h4>
+</button>
+<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
+<div class="accordion-body">
+<p>Don’t worry if you don’t recognize all of the filetypes. Just
+identify what you know. If you have time during the exercise, you can
+use a web search like <code>open pdf file</code>) to search for
+information.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>The project includes the following four types of files: *
+<code>txt</code> files are plain text and can be opened in any notepad
+or document software * <code>pdf</code> files can be opened with
+<code>Adobe Reader</code> or other document software * <code>nvpx</code>
+files are NVivo for Mac projects and can only be opened in NVivo for Mac
+or converted in NVivo for Windows to a Windows format *
+<code>qdpx</code> files are the REFI-QDA qualitative interchange format
+and can be opened in a variety of qualitative software</p>
+<p>In this project, the <code>txt</code> files provide
+<em>metadata</em>, or information about the project, while all other
+files are part of the data itself. Importantly, all of these formats are
+compatible with NVivo.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="methodologies-and-instruments">Methodologies and Instruments<a class="anchor" aria-label="anchor" href="#methodologies-and-instruments"></a></h3>
+<p>Coming soon.</p>
+</div>
+<div class="section level3">
+<h3 id="raw-data">Raw Data<a class="anchor" aria-label="anchor" href="#raw-data"></a></h3>
+<p>Coming soon.</p>
+</div>
+<div class="section level3">
+<h3 id="codebooks">Codebooks<a class="anchor" aria-label="anchor" href="#codebooks"></a></h3>
+<p>Coming soon.</p>
+</div>
+<div class="section level3">
+<h3 id="analysis">Analysis<a class="anchor" aria-label="anchor" href="#analysis"></a></h3>
+<p>Sometimes, it can be helpful to have not only raw data and a list of
+codes used by the original research team, but access to the analysis
+itself. There are at least three ways this can be useful: 1. Easily
+identify additional sections relevant to themes that were not quoted in
+the original report. 2. Practice coding with the same scheme and compare
+decisions 3. Perform additional analysis based on the original coding or
+in combination with new coding.</p>
+<p>We will spend much of our remaining time exploring these. The first
+step to performing these, however, is to import an analysis project into
+your software.</p>
+<div id="open-a-project-in-nvivo" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="open-a-project-in-nvivo" class="callout-inner">
+<h3 class="callout-title">Open a project in NVivo<a class="anchor" aria-label="anchor" href="#open-a-project-in-nvivo"></a>
+</h3>
+<div class="callout-content">
+<p>Open NVivo now. If you need to install or activate NVivo, please
+visit <code>Summary and Setup</code>. To open the <code>nvpx</code>
+project, follow the steps in the solution for your operating system
+below.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">
+  NVivo for Windows
+  </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p>Windows users may see a launch screen like the one below.</p>
+<p><img src="fig/nvivo-launch-dialog-windows.png" alt="Launch menu for NVivo 14 Windows" class="figure">.</p>
+<ul><li>Click <code>Open Other Project</code>
+</li>
+<li>In the dialog that opens, navigate to where you extracted the data,
+scroll to the bottom, and find
+<code>Mannheimer_Redacted_Interview_Analysis.nvpx</code>.</li>
+<li>Click the file then click <code>Open</code>.</li>
+<li>You will see a <code>Convert Project</code> dialog to convert from
+Mac to Windows. Select a location then follow the directions to upgrade.
+You may also be asked to download and install a project converter if you
+haven’t converted files in NVivo.</li>
+<li>The conversion may fail if you’re using NVivo 14, in which case you
+will need the <code>qdpx</code> directions, which have not yet been
+added in the Alpha.</li>
+</ul><p>Once the upgrade is complete, the project should open automatically
+in NVivo.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
+  <h4 class="accordion-header" id="headingSolution3">
+  NVivo for Mac
+  </h4>
+</button>
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div class="accordion-body">
+<p>Mac users may see a launch screen like the one below.</p>
+<p><img src="fig/nvivo-launch-dialog-mac.png" alt="Launch menu for NVivo 14 Mac" class="figure">.</p>
+<ul><li>Close the launch dialog, if it appeared, using the <code>x</code> at
+the top left.</li>
+<li>From the <code>File</code> menu at the top of your screen, select
+<code>Open Project...</code>.</li>
+<li>In the dialog that opens, navigate to where you extracted the data,
+scroll to the bottom, and find
+<code>Mannheimer_Redacted_Interview_Analysis.nvpx</code>.</li>
+<li>Click the file then click <code>Open</code>.</li>
+<li>If you see an <code>Upgrade Project</code> dialog, select a location
+then follow the directions to upgrade.</li>
+</ul><p>Once the upgrade is complete, the project should open automatically
+in NVivo.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="sharing-qualitative-data"><h2 class="section-heading">Sharing Qualitative Data<a class="anchor" aria-label="anchor" href="#sharing-qualitative-data"></a>
+</h2>
+<hr class="half-width"><p>Coming soon - a brief discussion of the benefits of sharing
+qualitative data.</p>
+<p><a href="https://doi.org/10.18452/25999" class="external-link">mannheimer-dissertation</a>
+<a href="https://qdr.syr.edu" class="external-link">qdr-home</a> <a href="https://doi.org/10.5064/F6GWMU4O" class="external-link">mannheimer-qdr</a> <a href="https://qdr.syr.edu/about" class="external-link">qdr-about</a></p>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
@@ -377,8 +700,8 @@ any links that you are not going to use.
   "url": "https://ndporter.github.io/nvivo-qdr-open-data/01-archiving-and-reusing-qualitative-data.html",
   "identifier": "https://ndporter.github.io/nvivo-qdr-open-data/01-archiving-and-reusing-qualitative-data.html",
   "dateCreated": "2023-08-22",
-  "dateModified": "2023-09-20",
-  "datePublished": "2023-09-26"
+  "dateModified": "2023-09-27",
+  "datePublished": "2023-09-27"
 }
 
   </script><script>
